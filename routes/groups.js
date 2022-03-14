@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { data } from '../data/data.js';
+import data from '../data/data.js';
 
 const router = express.Router();
 
