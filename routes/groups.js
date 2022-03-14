@@ -11,15 +11,17 @@ router.get('/getGroups', (req, res) => {
 });
 
 router.get('/:group', (req, res) => {
-  const { group } = req.params;
-
   let matchingStudents = data
-    .filter(student => student.group === group.toUpperCase())
+    .filter(student => student.group === req.params.group.toUpperCase())
     .sort((a, b) =>
       a.lastName.toLowerCase() > b.lastName.toLowerCase() ? 1 : -1
     );
 
-  res.json(matchingStudents);
+  res.json({ students: matchingStudents });
+});
+
+router.get('/', (req, res) => {
+  res.json({ error: 'Please provide the group ID' });
 });
 
 export default router;

@@ -8,7 +8,11 @@ router.get('/:id', (req, res) => {
   const { id } = req.params;
   const matchingStudent = data.filter(student => student.id.$oid === id);
 
-  res.json(matchingStudent);
+  res.json({ students: matchingStudent });
+});
+
+router.get('/', (req, res) => {
+  res.json({ error: 'Please provide the student ID' });
 });
 
 export default router;
