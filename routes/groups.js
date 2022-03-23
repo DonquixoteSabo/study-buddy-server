@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/getGroups', (req, res) => {
   let groups = [...new Set(data.map(student => student.group))];
   groups = groups.sort();
-  res.json(groups);
+  res.json({ groups: groups });
 });
 
 router.get('/:group', (req, res) => {
