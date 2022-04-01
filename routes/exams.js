@@ -1,5 +1,6 @@
 import express from 'express';
 import ExamsModel from '../models/exams.js';
+import dateFormat from 'dateformat';
 
 const router = express.Router();
 
@@ -28,12 +29,19 @@ router.post('/', async (req, res) => {
   let content = req.query.content;
   let hour = req.query.hour;
   let date = req.query.date;
+  console.log(req.query.date);
+
+  date = new Date(date);
+  date = date.getUTCDate();
 
   const newExam = new ExamsModel({
     title,
     content,
     hour,
-    date: { prettyDate: date, unixDate: date },
+    date: {
+      prettyDate: dateFormat(date, 'dd/mm'),
+      unixDate: req.query.date,
+    },
   });
 
   try {
