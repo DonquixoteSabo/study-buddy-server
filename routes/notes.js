@@ -9,7 +9,7 @@ router.get('/', getAllNotes);
 
 //ADDING NEW NOTE
 // localhost:5000/notes/?title="TITLE"12&content=Hello how u doin
-router.post('/', addNewNote);
+router.post('', addNewNote);
 
 router.delete('/:id', deleteNote);
 

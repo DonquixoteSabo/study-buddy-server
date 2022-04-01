@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import studentsRouters from './routes/students.js';
 import groupsRouters from './routes/groups.js';
 import notesRouters from './routes/notes.js';
+import examsRouters from './routes/exams.js';
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(cors());
 app.use('/students', studentsRouters);
 app.use('/notes', notesRouters);
 app.use('/groups', groupsRouters);
+app.use('/exams', examsRouters);
 
 const PORT = process.env.PORT || 5000;
 

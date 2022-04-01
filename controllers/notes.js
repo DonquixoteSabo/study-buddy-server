@@ -3,14 +3,13 @@ import NotesModel from '../models/notes.js';
 export const getAllNotes = async (req, res) => {
   try {
     const allNotes = await NotesModel.find();
-    console.log(allNotes);
     res.json({ allNotes });
   } catch (error) {
     console.log(error);
     res.json({ message: error.message });
   }
 };
-
+ 
 export const addNewNote = async (req, res) => {
   let title = req.query.title;
   let content = req.query.content;
@@ -32,7 +31,7 @@ export const addNewNote = async (req, res) => {
     res.json({ message: error.message });
   }
 };
- 
+
 export const deleteNote = async (req, res) => {
   const { id } = req.params;
   try {
