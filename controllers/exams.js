@@ -15,8 +15,8 @@ export const addExam = async (req, res) => {
   const title = req.query.title;
   const content = req.query.content;
   const hour = req.query.hour;
-  // for some reason second arg in date (month) is incrementing on his own :O;
-  const date = new Date(2022, 0, 2);
+  const unixTimeStamp = req.query.date;
+  const date = new Date(unixTimeStamp * 1000);
 
   const newExam = new ExamsModel({
     title,
