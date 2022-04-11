@@ -1,21 +1,23 @@
 import express from 'express';
 
-import data from '../data/data.js';
+import StudentsModel from '../models/students.js';
 
 const router = express.Router();
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   const { id } = req.params;
-  const matchingStudent = data.filter(student => student.id.$oid === id);
+
+  const matchingStudent = await StudentsModel.findOne({ _id: id });
 
   res.json({ students: matchingStudent });
 });
 
-router.get('/search/:phrase', (req, res) => {
+// TODO Refactor this endpoint because for sure its not optimal
+router.get('/search/:phrase', async (req, res) => {
   let { phrase } = req.params;
   phrase = phrase.toLowerCase().split(' ');
+  const data = await StudentsModel.find();
   let matchingStudents = [];
-
 
   matchingStudents = data.filter(
     student =>
@@ -30,7 +32,6 @@ router.get('/search/:phrase', (req, res) => {
         student.lastName.toLowerCase().includes(phrase[1])
     );
   }
-   
 
   res.json({ students: matchingStudents });
 });

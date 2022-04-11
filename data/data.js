@@ -3,8 +3,7 @@ const data = [
     id: {
       $oid: '622ed8bafc13ae4d4c00046a',
     },
-    firstName: 'Ronalda',
-    lastName: 'Fust',
+    firstName: 'Ronalda',    lastName: 'Fust',
     attendance: 80,
     average: 2.7,
     group: 'A',

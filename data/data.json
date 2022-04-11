@@ -1,8 +1,5 @@
 [
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00046a"
-    },
     "firstName": "Ronalda",
     "lastName": "Fust",
     "attendance": 80,
@@ -21,9 +18,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00046b"
-    },
     "firstName": "Claudia",
     "lastName": "Kittman",
     "attendance": 34,
@@ -54,9 +48,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00046c"
-    },
     "firstName": "Kissie",
     "lastName": "Blaza",
     "attendance": 90,
@@ -79,9 +70,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00046d"
-    },
     "firstName": "Ketty",
     "lastName": "Russilll",
     "attendance": 33,
@@ -112,9 +100,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00046e"
-    },
     "firstName": "Hazlett",
     "lastName": "Kemer",
     "attendance": 11,
@@ -137,9 +122,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00046f"
-    },
     "firstName": "Delia",
     "lastName": "Chattelaine",
     "attendance": 64,
@@ -170,9 +152,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000470"
-    },
     "firstName": "Rutter",
     "lastName": "Yurenin",
     "attendance": 63,
@@ -191,9 +170,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000471"
-    },
     "firstName": "Rolland",
     "lastName": "Shute",
     "attendance": 81,
@@ -220,9 +196,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000472"
-    },
     "firstName": "Ethelind",
     "lastName": "Macro",
     "attendance": 23,
@@ -253,9 +226,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000473"
-    },
     "firstName": "Clifford",
     "lastName": "Goare",
     "attendance": 50,
@@ -286,9 +256,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000474"
-    },
     "firstName": "Eliza",
     "lastName": "Gauchier",
     "attendance": 68,
@@ -319,9 +286,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000475"
-    },
     "firstName": "Caria",
     "lastName": "Willcock",
     "attendance": 52,
@@ -340,9 +304,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000476"
-    },
     "firstName": "Allin",
     "lastName": "Ruby",
     "attendance": 20,
@@ -365,9 +326,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000477"
-    },
     "firstName": "Matthiew",
     "lastName": "Matusevich",
     "attendance": 88,
@@ -394,9 +352,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000478"
-    },
     "firstName": "Rosina",
     "lastName": "Sexstone",
     "attendance": 39,
@@ -415,9 +370,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000479"
-    },
     "firstName": "Gerrard",
     "lastName": "Heighton",
     "attendance": 14,
@@ -436,9 +388,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00047a"
-    },
     "firstName": "Rickie",
     "lastName": "Lesurf",
     "attendance": 41,
@@ -465,9 +414,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00047b"
-    },
     "firstName": "Zedekiah",
     "lastName": "Creegan",
     "attendance": 12,
@@ -486,9 +432,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00047c"
-    },
     "firstName": "Thorin",
     "lastName": "Harroway",
     "attendance": 55,
@@ -511,9 +454,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00047d"
-    },
     "firstName": "Tuesday",
     "lastName": "Durie",
     "attendance": 46,
@@ -536,9 +476,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00047e"
-    },
     "firstName": "Guenna",
     "lastName": "Peak",
     "attendance": 6,
@@ -561,9 +498,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00047f"
-    },
     "firstName": "Alric",
     "lastName": "Bogue",
     "attendance": 72,
@@ -590,9 +524,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000480"
-    },
     "firstName": "Danielle",
     "lastName": "Camois",
     "attendance": 68,
@@ -615,9 +546,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000481"
-    },
     "firstName": "Jacquette",
     "lastName": "Maides",
     "attendance": 66,
@@ -640,9 +568,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000482"
-    },
     "firstName": "Omar",
     "lastName": "Simmonds",
     "attendance": 42,
@@ -665,9 +590,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000483"
-    },
     "firstName": "Malva",
     "lastName": "Elsom",
     "attendance": 30,
@@ -686,9 +608,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000484"
-    },
     "firstName": "Annaliese",
     "lastName": "Barthelme",
     "attendance": 76,
@@ -707,9 +626,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000485"
-    },
     "firstName": "Colet",
     "lastName": "Pellew",
     "attendance": 12,
@@ -732,9 +648,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000486"
-    },
     "firstName": "Keely",
     "lastName": "Bastide",
     "attendance": 71,
@@ -765,9 +678,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000487"
-    },
     "firstName": "Kalvin",
     "lastName": "Emburey",
     "attendance": 12,
@@ -786,9 +696,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000488"
-    },
     "firstName": "Rivkah",
     "lastName": "Robison",
     "attendance": 4,
@@ -819,9 +726,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000489"
-    },
     "firstName": "Ally",
     "lastName": "Leidecker",
     "attendance": 26,
@@ -848,9 +752,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00048a"
-    },
     "firstName": "Ricky",
     "lastName": "Flockhart",
     "attendance": 80,
@@ -873,9 +774,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00048b"
-    },
     "firstName": "Sisile",
     "lastName": "Kleinhandler",
     "attendance": 79,
@@ -894,9 +792,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00048c"
-    },
     "firstName": "Nissie",
     "lastName": "Kelson",
     "attendance": 59,
@@ -923,9 +818,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00048d"
-    },
     "firstName": "Maxie",
     "lastName": "Edmondson",
     "attendance": 19,
@@ -952,9 +844,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00048e"
-    },
     "firstName": "Maurise",
     "lastName": "Duckitt",
     "attendance": 95,
@@ -973,9 +862,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c00048f"
-    },
     "firstName": "Randi",
     "lastName": "Caws",
     "attendance": 49,
@@ -1002,9 +888,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000490"
-    },
     "firstName": "Jany",
     "lastName": "Sunman",
     "attendance": 98,
@@ -1027,9 +910,6 @@
     ]
   },
   {
-    "id": {
-      "$oid": "622ed8bafc13ae4d4c000491"
-    },
     "firstName": "Phillie",
     "lastName": "Lowson",
     "attendance": 12,
