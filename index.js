@@ -27,7 +27,7 @@ mongoose
   .catch(err => console.log(err.message));
 
 app.get('/', (req, res) => {
-  res.send("Hello, it's me");
+  res.json({ hello: "Hello, it's me" });
 });
 
 // app.listen(PORT, () => {

@@ -18,10 +18,10 @@ export const getStudentsByGroup = async (req, res) => {
       group: req.params.group.toUpperCase(),
     });
 
-    res.json({ allStudents: matchingStudents });
+    res.json({ students: matchingStudents });
   } catch (error) {
     console.log(error);
-    res.json({ message: error.message });
+    res.json({ students: [], message: error.message });
   }
 };
 
